@@ -1,10 +1,11 @@
 <script>
+  import Hero from "./lib/hero.svelte";
   import Navbar from "./lib/navbar.svelte";
-  import ThemeConroller from "./lib/theme_conroller.svelte";
 </script>
 
 <main>
   <Navbar />
+  <Hero />
 </main>
 
 <style>

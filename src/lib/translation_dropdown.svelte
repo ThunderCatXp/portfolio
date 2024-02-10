@@ -4,7 +4,9 @@
 </script>
 
 <details class="dropdown">
-  <summary class="m-1 btn"><span class="fi fi-{curr}"></span></summary>
+  <summary class="m-1 btn btn-square btn-ghost"
+    ><span class="fi fi-{curr}"></span></summary
+  >
   <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box">
     <li>
       <button
