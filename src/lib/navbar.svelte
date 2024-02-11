@@ -30,4 +30,8 @@
 </main>
 
 <style>
+  .dots {
+    background-image: radial-gradient(oklch(var(--n)) 5%, transparent 0%);
+    background-size: 3px 3px;
+  }
 </style>

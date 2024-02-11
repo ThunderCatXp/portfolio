@@ -9,3 +9,4 @@
 - Icons
     - [Simple icons](https://simpleicons.org/)
     - [Flag Icons](https://github.com/lipis/flag-icons)
+    - [Boxicons](https://boxicons.com/)
