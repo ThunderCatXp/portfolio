@@ -6,7 +6,7 @@
 
 <main>
   <div class="hero min-h-screen bg-base-100">
-    <div class="flex gap-3 content-center justify-center">
+    <div class="flex gap-7 content-center justify-center">
       <div><CardOcupation /></div>
       <div><CardPassion /></div>
       <div><CardFuture /></div>
