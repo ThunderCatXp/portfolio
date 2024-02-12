@@ -2,7 +2,6 @@
   // @ts-nocheck
   import { Github } from "@icons-pack/svelte-simple-icons";
   import ThemeConroller from "./theme_conroller.svelte";
-  import TranslationDropdown from "./translation_dropdown.svelte";
 </script>
 
 <main>
