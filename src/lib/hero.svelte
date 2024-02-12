@@ -9,7 +9,7 @@
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img
         {src}
-        class="max-w-sm rounded-lg shadow-2xl"
+        class="max-w-sm rounded-lg shadow-2xl object-cover"
         alt="ThunderCat's avatar"
       />
       <div>
@@ -26,11 +26,4 @@
 </main>
 
 <style>
-  img {
-    transition: transform 0.2s ease-out;
-  }
-
-  img:hover {
-    transform: scale(1.02);
-  }
 </style>
