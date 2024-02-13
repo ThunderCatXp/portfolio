@@ -11,7 +11,7 @@
     <box-icon
       class="swap-off fill-current w-5 h-5"
       name="sun"
-      type="fill"
+      type="solid"
       color="#A9ACBA"
     ></box-icon>
 

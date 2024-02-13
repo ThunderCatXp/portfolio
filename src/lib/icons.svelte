@@ -37,7 +37,8 @@
 
 <style>
   .icon {
-    transition: all 0.2s ease-in;
+    transition: all 0.15s ease-in;
+    cursor: pointer;
   }
   .icon:nth-child(even):hover {
     color: oklch(var(--p));
