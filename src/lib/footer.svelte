@@ -4,16 +4,20 @@
 </script>
 
 <main>
-  <footer class="footer p-10 bg-base-200 text-neutral-content">
-    <aside>
-      <p></p>
-    </aside>
+  <footer class="footer p-10 bg-base-200">
+    <aside></aside>
     <nav>
       <h6 class="footer-title">Social</h6>
       <div class="grid grid-flow-col gap-4">
-        <div class="icon"><Codepen /></div>
-        <div class="icon"><Github /></div>
-        <div class="icon"><Artstation /></div>
+        <a class="icon" href="https://codepen.io/ThunderCatXp">
+          <Codepen />
+        </a>
+        <a class="icon" href="https://github.com/ThunderCatXp">
+          <Github />
+        </a>
+        <a class="icon" href="https://www.artstation.com/thundercat_art">
+          <Artstation />
+        </a>
       </div>
     </nav>
   </footer>
