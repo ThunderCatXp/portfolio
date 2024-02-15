@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <div class="card w-96 bg-base-200 shadow-xl">
+  <div class="card w-[24rem] bg-base-200 shadow-xl">
     <figure class="px-10 pt-10">
       <img {src} alt="" class="rounded-xl aspect-square object-cover" />
     </figure>
