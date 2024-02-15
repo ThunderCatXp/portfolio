@@ -5,7 +5,7 @@
 </script>
 
 <main>
-  <div class="navbar bg-base-100 dots">
+  <div class="navbar bg-base-200 dots">
     <div class="flex-none">
       <a
         href="https://github.com/ThunderCatXp"

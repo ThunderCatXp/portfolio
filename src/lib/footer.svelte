@@ -4,7 +4,7 @@
 </script>
 
 <main>
-  <footer class="footer p-10 bg-base-200">
+  <footer class="footer p-10 bg-base-200 dots">
     <aside></aside>
     <nav>
       <h6 class="footer-title">Social</h6>
@@ -31,5 +31,10 @@
   .icon:hover {
     color: oklch(var(--in));
     transform: scale(130%);
+  }
+
+  .dots {
+    background-image: radial-gradient(oklch(var(--n)) 5%, transparent 0%);
+    background-size: 3px 3px;
   }
 </style>
