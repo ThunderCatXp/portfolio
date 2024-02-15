@@ -18,20 +18,22 @@
 </script>
 
 <main>
-  <div class="w-96 flex gap-1">
-    <div class="icon"><Javascript /></div>
-    <div class="icon"><Html5 /></div>
-    <div class="icon"><CssThree /></div>
-    <div class="icon"><Svelte /></div>
-    <div class="icon"><Gnubash /></div>
-    <div class="icon"><Linux /></div>
-    <div class="icon"><Python /></div>
-    <div class="icon"><Figma /></div>
-    <div class="icon"><Adobeillustrator /></div>
-    <div class="icon"><Adobephotoshop /></div>
-    <div class="icon"><Codepen /></div>
-    <div class="icon"><Awesomelists /></div>
-    <div class="icon"><Blender /></div>
+  <div class="w-96">
+    <div class="flex flex-row flex-wrap gap-1">
+      <div class="icon"><Javascript /></div>
+      <div class="icon"><Html5 /></div>
+      <div class="icon"><CssThree /></div>
+      <div class="icon"><Svelte /></div>
+      <div class="icon"><Gnubash /></div>
+      <div class="icon"><Linux /></div>
+      <div class="icon"><Python /></div>
+      <div class="icon"><Figma /></div>
+      <div class="icon"><Adobeillustrator /></div>
+      <div class="icon"><Adobephotoshop /></div>
+      <div class="icon"><Codepen /></div>
+      <div class="icon"><Awesomelists /></div>
+      <div class="icon"><Blender /></div>
+    </div>
   </div>
 </main>
 

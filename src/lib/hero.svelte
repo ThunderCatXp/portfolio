@@ -14,7 +14,7 @@
       />
       <div>
         <h1 class="text-5xl font-bold">ThunderCat</h1>
-        <p class="py-6">
+        <p class="py-6 text-balance">
           Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
           excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
           id nisi.
