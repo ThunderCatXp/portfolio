@@ -1,7 +1,7 @@
 <script>
   import Icons from "./icons.svelte";
 
-  let src = "/src/assets/avatar.jpg";
+  let src = "/avatar.jpg";
 </script>
 
 <main>

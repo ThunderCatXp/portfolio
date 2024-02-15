@@ -1,5 +1,5 @@
 <script>
-  let src = "/src/assets/passion.jpg";
+  let src = "/passion.jpg";
 </script>
 
 <main>

@@ -1,5 +1,5 @@
 <script>
-  let src = "/src/assets/future.webp";
+  let src = "/future.webp";
 </script>
 
 <main>
