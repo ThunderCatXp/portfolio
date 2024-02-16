@@ -30,7 +30,7 @@
   }
   .icon:hover {
     color: oklch(var(--in));
-    transform: scale(130%);
+    transform: scale(150%);
   }
 
   .dots {
