@@ -24,4 +24,7 @@
 </main>
 
 <style>
+  a:hover:visited {
+    color: oklch(var(--s));
+  }
 </style>
