@@ -24,6 +24,14 @@
 </main>
 
 <style>
+  a {
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+  }
+  a:hover {
+    color: oklch(var(--in));
+    transform: scale(150%);
+  }
   a:hover:visited {
     color: oklch(var(--s));
   }
