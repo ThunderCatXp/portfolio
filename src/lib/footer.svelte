@@ -4,7 +4,7 @@
 </script>
 
 <main>
-  <footer class="footer p-10 bg-base-200 dots">
+  <footer class="footer p-10 bg-base-100 dots">
     <aside></aside>
     <nav>
       <h6 class="footer-title">Social</h6>
