@@ -1,6 +1,6 @@
 <script>
   import "/node_modules/flag-icons/css/flag-icons.min.css";
-  let curr = "us";
+  let curr = "uk";
 </script>
 
 <details class="dropdown">
@@ -29,9 +29,9 @@
     <li>
       <button
         on:click={() => {
-          curr = "us";
+          curr = "uk";
         }}
-        class="fi fi-us"
+        class="fi fi-uk"
       ></button>
     </li>
   </ul>
