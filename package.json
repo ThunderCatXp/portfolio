@@ -21,7 +21,6 @@
   "dependencies": {
     "@icons-pack/svelte-simple-icons": "^3.0.0",
     "boxicons": "^2.1.4",
-    "flag-icons": "^7.1.0",
     "tw-elements": "^1.1.0"
   }
 }
