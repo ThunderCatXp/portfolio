@@ -21,7 +21,7 @@
       >
     </div>
     <div>
-      <!-- <TranslationDropdown /> -->
+      <TranslationDropdown />
     </div>
     <div>
       <ThemeConroller />
