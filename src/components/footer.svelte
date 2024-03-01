@@ -1,6 +1,6 @@
 <script>
   // @ts-nocheck
-  import { Codepen, Github, Artstation } from "@icons-pack/svelte-simple-icons";
+  import { Codepen, Github, Gmail } from "@icons-pack/svelte-simple-icons";
 </script>
 
 <main>
@@ -15,8 +15,8 @@
         <a class="icon" href="https://github.com/ThunderCatXp">
           <Github />
         </a>
-        <a class="icon" href="https://www.artstation.com/thundercat_art">
-          <Artstation />
+        <a class="icon" href="mailto:thundercatxp@yahoo.com">
+          <Gmail />
         </a>
       </div>
     </nav>
@@ -31,8 +31,5 @@
   a:hover {
     color: oklch(var(--in));
     transform: scale(150%);
-  }
-  a:hover:visited {
-    color: oklch(var(--s));
   }
 </style>
