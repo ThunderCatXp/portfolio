@@ -1,5 +1,5 @@
 export default {
-    uk: {
+    en: {
       "homepage.info": "",
       "card.occupation": "",
       "card.passion": "",
