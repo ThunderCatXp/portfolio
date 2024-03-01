@@ -1,5 +1,5 @@
 <script>
-  import { t, locale, locales } from "./i18n";
+  import { t, locale, locales } from "../lib/i18n";
 </script>
 
 <select

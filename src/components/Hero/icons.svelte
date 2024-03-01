@@ -48,7 +48,7 @@
   }
 
   .icon:nth-child(odd):hover {
-    color: oklch(var(--s));
+    color: oklch(var(--a));
     transform: scale(130%);
   }
 </style>
