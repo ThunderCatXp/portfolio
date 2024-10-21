@@ -14,7 +14,11 @@
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title font-bold">Future</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <p>
+        Planning for the future to work as network <b
+          >administrator or DevOps engineer</b
+        >
+      </p>
     </div>
   </div>
 </main>

@@ -14,7 +14,7 @@
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title font-bold">Passion</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <p>Interested in <b>network management and DevOps.</b> Love to code.</p>
     </div>
   </div>
 </main>

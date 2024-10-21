@@ -14,7 +14,7 @@
     </figure>
     <div class="card-body items-center text-center">
       <h2 class="card-title font-bold">Ocupation</h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <p>I'm already in fourth year of <b>Volgograd Energy College.</b></p>
     </div>
   </div>
 </main>
