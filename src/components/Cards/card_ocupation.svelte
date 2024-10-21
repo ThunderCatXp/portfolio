@@ -1,5 +1,16 @@
 <script>
   let src = "/ВЭК.jpg";
+
+  // @ts-ignore
+  import { t, locale, locales } from "i18n";
+
+  // Create a locale specific timestamp
+  $: time = new Date().toLocaleDateString($locale, {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 </script>
 
 <main>
@@ -13,8 +24,10 @@
       />
     </figure>
     <div class="card-body items-center text-center">
-      <h2 class="card-title font-bold">Ocupation</h2>
-      <p>I'm already in fourth year of <b>Volgograd Energy College.</b></p>
+      <h2 class="card-title font-bold">{@html $t("occupation")}</h2>
+      <p>
+        {@html $t("card.occupation")}
+      </p>
     </div>
   </div>
 </main>

@@ -1,5 +1,16 @@
 <script>
   let src = "/future.webp";
+
+  // @ts-ignore
+  import { t, locale, locales } from "i18n";
+
+  // Create a locale specific timestamp
+  $: time = new Date().toLocaleDateString($locale, {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 </script>
 
 <main>
@@ -13,11 +24,9 @@
       />
     </figure>
     <div class="card-body items-center text-center">
-      <h2 class="card-title font-bold">Future</h2>
+      <h2 class="card-title font-bold">{@html $t("future")}</h2>
       <p>
-        Planning for the future to work as network <b
-          >administrator or DevOps engineer</b
-        >
+        {@html $t("card.future")}
       </p>
     </div>
   </div>
