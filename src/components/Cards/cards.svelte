@@ -24,7 +24,7 @@
 </script>
 
 <main>
-  <div class="hero min-h-screen bg-base-100">
+  <div class="hero min-h-screen bg-base-100 pb-6">
     <div class="flex flex-row flex-wrap justify-center gap-7">
       <div>
         <Card

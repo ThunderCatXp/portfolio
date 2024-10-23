@@ -1,46 +1,48 @@
 <script>
   // @ts-nocheck
   import {
-    Javascript,
-    Html5,
-    CssThree,
-    Svelte,
-    Gnubash,
-    Linux,
-    Python,
-    Figma,
-    Adobeillustrator,
-    Adobephotoshop,
-    Awesomelists,
-    Blender,
-    Docker,
-    Cisco,
-    Vuedotjs,
-    Github,
-    Git,
+    SiJavascript,
+    SiHtml5,
+    SiSvelte,
+    SiGnubash,
+    SiLinux,
+    SiPython,
+    SiFigma,
+    SiAdobeillustrator,
+    SiAdobephotoshop,
+    SiAwesomelists,
+    SiBlender,
+    SiDocker,
+    SiCisco,
+    SiVuedotjs,
+    SiGithub,
+    SiGit,
+    SiHono,
+    SiCss3,
   } from "@icons-pack/svelte-simple-icons";
 </script>
 
 <main>
   <div class="w-96">
     <div class="flex flex-row flex-wrap gap-1">
-      <div class="icon"><Docker /></div>
-      <div class="icon"><Javascript /></div>
-      <div class="icon"><Html5 /></div>
-      <div class="icon"><CssThree /></div>
-      <div class="icon"><Svelte /></div>
-      <div class="icon"><Vuedotjs /></div>
-      <div class="icon"><Linux /></div>
-      <div class="icon"><Cisco /></div>
-      <div class="icon"><Python /></div>
-      <div class="icon"><Github /></div>
-      <div class="icon"><Gnubash /></div>
-      <div class="icon"><Git /></div>
-      <div class="icon"><Figma /></div>
-      <div class="icon"><Adobeillustrator /></div>
-      <div class="icon"><Adobephotoshop /></div>
-      <div class="icon"><Awesomelists /></div>
-      <div class="icon"><Blender /></div>
+      <div class="icon"><SiDocker /></div>
+      <div class="icon"><SiJavascript /></div>
+      <div class="icon"><SiCss3 /></div>
+      <div class="icon"><SiHtml5 /></div>
+      <div class="icon"><SiSvelte /></div>
+      <div class="icon"><SiHono /></div>
+      <div class="icon"><SiVuedotjs /></div>
+      <div class="icon"><SiLinux /></div>
+      <div class="icon"><SiCisco /></div>
+      <div class="icon"><SiPython /></div>
+      <div class="icon"><SiGithub /></div>
+      <div class="icon"><SiGnubash /></div>
+      <div class="icon"><SiGit /></div>
+      <div class="icon"><SiFigma /></div>
+      <div class="icon"><SiAdobeillustrator /></div>
+      <div class="icon"><SiAdobephotoshop /></div>
+      <div class="icon"><SiAwesomelists /></div>
+      <div class="icon"><SiBlender /></div>
     </div>
   </div>
 </main>

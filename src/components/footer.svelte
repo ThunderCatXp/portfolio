@@ -1,6 +1,10 @@
 <script>
   // @ts-nocheck
-  import { Codepen, Github, Gmail } from "@icons-pack/svelte-simple-icons";
+  import {
+    SiCodepen,
+    SiGithub,
+    SiGmail,
+  } from "@icons-pack/svelte-simple-icons";
 </script>
 
 <main>
@@ -9,14 +13,26 @@
     <nav>
       <h6 class="footer-title">Social</h6>
       <div class="grid grid-flow-col gap-4">
-        <a class="icon" href="https://codepen.io/ThunderCatXp">
-          <Codepen />
+        <a
+          class="icon"
+          href="https://codepen.io/ThunderCatXp"
+          aria-label="Codepen Profile"
+        >
+          <SiCodepen />
         </a>
-        <a class="icon" href="https://github.com/ThunderCatXp">
-          <Github />
+        <a
+          class="icon"
+          href="https://github.com/ThunderCatXp"
+          aria-label="Github Profile"
+        >
+          <SiGithub />
         </a>
-        <a class="icon" href="mailto:thundercatxp@yahoo.com">
-          <Gmail />
+        <a
+          class="icon"
+          href="mailto:thundercatxp@yahoo.com"
+          aria-label="E-mail"
+        >
+          <SiGmail />
         </a>
       </div>
     </nav>

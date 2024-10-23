@@ -4,6 +4,7 @@
 
 <select
   class="select select-sm select-ghost w-full max-w-xs"
+  aria-label="Change language"
   bind:value={$locale}
 >
   {#each locales as l}

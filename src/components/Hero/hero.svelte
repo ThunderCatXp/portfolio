@@ -2,6 +2,17 @@
   import Icons from "./icons.svelte";
 
   let src = "/avatar.jpg";
+
+  // @ts-ignore
+  import { t, locale, locales } from "i18n";
+
+  // Create a locale specific timestamp
+  $: time = new Date().toLocaleDateString($locale, {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 </script>
 
 <main>
@@ -15,9 +26,7 @@
       <div>
         <h1 class="text-5xl font-bold">ThunderCat</h1>
         <p class="py-6 text-balance">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-          excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
-          id nisi.
+          {$t("homepage.info")}
         </p>
         <Icons />
       </div>
