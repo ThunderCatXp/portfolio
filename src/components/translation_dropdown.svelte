@@ -11,3 +11,13 @@
     <option value={l}>{l}</option>
   {/each}
 </select>
+
+<style>
+  select:hover {
+    scale: 1.05;
+  }
+
+  select:focus {
+    scale: 1.05;
+  }
+</style>

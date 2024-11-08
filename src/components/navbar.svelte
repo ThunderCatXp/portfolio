@@ -13,7 +13,9 @@
         class="btn btn-square btn-ghost"
         aria-label="Github Profile"
       >
-        <SiGithub title="Github Profile" class="bg-primary-content" />
+        <div>
+          <SiGithub title="Github Profile" class="bg-primary-content" />
+        </div>
       </a>
     </div>
     <div class="flex-1">
@@ -31,4 +33,16 @@
 </main>
 
 <style>
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  a:hover > div {
+    animation: spin 2s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+  }
 </style>
