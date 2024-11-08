@@ -34,5 +34,8 @@
   </div>
 </main>
 
-<style>
+<style scoped>
+  img:hover {
+    transform: scale(1.02);
+  }
 </style>
